@@ -73,16 +73,17 @@ h1, h2, h3, h4, h5, h6 {
  */
 
 .container {
-  max-width: 28rem;
+
+  max-width: 50rem;
 }
-@media (min-width: 38em) {
+@media (max-width: 1165px) {
   .container {
     max-width: 32rem;
   }
 }
-@media (min-width: 56em) {
+@media (max-width: 38em) {
   .container {
-    max-width: 38rem;
+    max-width: 28rem;
   }
 }
 
@@ -223,14 +224,14 @@ a.sidebar-nav-item:focus {
 }
 
 .sidebar-toggle:before {
-  display: inline-block;
-  width: 1rem;
-  height: .75rem;
-  content: "";
-  background-image: -webkit-linear-gradient(to bottom, #555, #555 20%, #fff 20%, #fff 40%, #555 40%, #555 60%, #fff 60%, #fff 80%, #555 80%, #555 100%);
-  background-image:    -moz-linear-gradient(to bottom, #555, #555 20%, #fff 20%, #fff 40%, #555 40%, #555 60%, #fff 60%, #fff 80%, #555 80%, #555 100%);
-  background-image:     -ms-linear-gradient(to bottom, #555, #555 20%, #fff 20%, #fff 40%, #555 40%, #555 60%, #fff 60%, #fff 80%, #555 80%, #555 100%);
-  background-image:         linear-gradient(to bottom, #555, #555 20%, #fff 20%, #fff 40%, #555 40%, #555 60%, #fff 60%, #fff 80%, #555 80%, #555 100%);
+  /*display: inline-block;*/
+  /*width: 1rem;*/
+  /*height: .75rem;*/
+  /*content: "";*/
+  /*background-image: -webkit-linear-gradient(to bottom, #555, #555 20%, #fff 20%, #fff 40%, #555 40%, #555 60%, #fff 60%, #fff 80%, #555 80%, #555 100%);*/
+  /*background-image:    -moz-linear-gradient(to bottom, #555, #555 20%, #fff 20%, #fff 40%, #555 40%, #555 60%, #fff 60%, #fff 80%, #555 80%, #555 100%);*/
+  /*background-image:     -ms-linear-gradient(to bottom, #555, #555 20%, #fff 20%, #fff 40%, #555 40%, #555 60%, #fff 60%, #fff 80%, #555 80%, #555 100%);*/
+  /*background-image:         linear-gradient(to bottom, #555, #555 20%, #fff 20%, #fff 40%, #555 40%, #555 60%, #fff 60%, #fff 80%, #555 80%, #555 100%);*/
 }
 
 .sidebar-toggle:active,
@@ -243,10 +244,10 @@ a.sidebar-nav-item:focus {
 .sidebar-toggle:active:before,
 #sidebar-checkbox:focus ~ .sidebar-toggle:before,
 #sidebar-checkbox:checked ~ .sidebar-toggle:before {
-  background-image: -webkit-linear-gradient(to bottom, #fff, #fff 20%, #555 20%, #555 40%, #fff 40%, #fff 60%, #555 60%, #555 80%, #fff 80%, #fff 100%);
-  background-image:    -moz-linear-gradient(to bottom, #fff, #fff 20%, #555 20%, #555 40%, #fff 40%, #fff 60%, #555 60%, #555 80%, #fff 80%, #fff 100%);
-  background-image:     -ms-linear-gradient(to bottom, #fff, #fff 20%, #555 20%, #555 40%, #fff 40%, #fff 60%, #555 60%, #555 80%, #fff 80%, #fff 100%);
-  background-image:         linear-gradient(to bottom, #fff, #fff 20%, #555 20%, #555 40%, #fff 40%, #fff 60%, #555 60%, #555 80%, #fff 80%, #fff 100%);
+  /*background-image: -webkit-linear-gradient(to bottom, #fff, #fff 20%, #555 20%, #555 40%, #fff 40%, #fff 60%, #555 60%, #555 80%, #fff 80%, #fff 100%);*/
+  /*background-image:    -moz-linear-gradient(to bottom, #fff, #fff 20%, #555 20%, #555 40%, #fff 40%, #fff 60%, #555 60%, #555 80%, #fff 80%, #fff 100%);*/
+  /*background-image:     -ms-linear-gradient(to bottom, #fff, #fff 20%, #555 20%, #555 40%, #fff 40%, #fff 60%, #555 60%, #555 80%, #fff 80%, #fff 100%);*/
+  /*background-image:         linear-gradient(to bottom, #fff, #fff 20%, #555 20%, #555 40%, #fff 40%, #fff 60%, #555 60%, #555 80%, #fff 80%, #fff 100%);*/
 }
 
 @media (min-width: 30.1em) {

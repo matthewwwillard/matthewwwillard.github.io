@@ -1,0 +1,21 @@
+---
+layout: default
+title: Projects
+---
+
+<div class="projects">
+    {% for p in site.projects %}
+    <a href="{{p.url}}" style="text-decoration: none">
+        <div class="project">
+            <img src="{{p.showcase_image}}"/>
+            <hr/>
+            <p>{{p.description}}</p>
+            <div class="pills">
+                {% for pill in p.skills %}
+                    <small class="pill">{{pill}}</small>
+                {% endfor %}
+            </div>
+        </div>
+    </a>
+    {% endfor %}
+</div>

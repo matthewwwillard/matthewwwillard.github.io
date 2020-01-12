@@ -1,0 +1,52 @@
+---
+layout: default
+---
+
+<div class="post">
+    <h1 class="post-title">{{ page.name }}</h1>
+    <div class="pills-project">
+        {% for pill in page.skills %}
+        <small class="pill">{{pill}}</small>
+        {% endfor %}
+    </div>
+    <div class="glide">
+        <div class="glide__track" data-glide-el="track">
+            <ul class="glide__slides">
+                {% for i in page.images %}
+                <li class="glide__slide">
+                    <img src="{{i}}" />
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+        <div class="glide__arrows" data-glide-el="controls">
+            <button class="glide__arrow glide__arrow--left" data-glide-dir="<"><i class="fa fa-chevron-left"></i></button>
+            <button class="glide__arrow glide__arrow--right" data-glide-dir=">"><i class="fa fa-chevron-right"></i></button>
+        </div>
+        <div class="glide__bullets" data-glide-el="controls[nav]">
+            {% for i in page.images %}
+                <button class="glide__bullet" data-glide-dir="={{ forloop.index0 }}"></button>
+            {% endfor %}
+        </div>
+    </div>
+    {{ content }}
+</div>
+
+<script src="/public/js/glide.js"></script>
+<script>
+    new Glide('.glide', {
+        autoplay:5000,
+        gaps:10,
+        type: 'carousel',
+        perView: 4,
+        focusAt: 'center',
+        breakpoints: {
+            800: {
+                perView: 2
+            },
+            480: {
+                perView: 1
+            }
+        }
+    }).mount()
+</script>
