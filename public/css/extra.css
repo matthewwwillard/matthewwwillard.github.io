@@ -3,7 +3,7 @@
     height:150px;
     object-fit:cover;
     border-radius:50%;
-
+    margin: auto;
   }
 .mb-1
 {
@@ -120,7 +120,44 @@
 }
 /* END OVERRIDES */
 
+/* ABOUT */
+.pl0
+{
+    padding-left: 0;
+}
+.aboutUl ul
+{
+    list-style: none;
+    padding: 0;
+    padding-top: 10px;
+}
 
+.aboutUl span
+{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 19px;
+    vertical-align: middle;
+    line-height: 50px;
+
+}
+.aboutUl li
+{
+
+}
+.aboutUl li:before
+{
+    color: #d28445;
+    content: '✓';
+    padding-right: 10px;
+}
+.aboutUl span i
+{
+    color: #d28445;
+    padding-right: 10px;
+    font-size: 27px;
+}
+/* END ABOUT */
 .prettyBtn
 {
     padding: 10px;
@@ -134,6 +171,7 @@
 {
     opacity: .8;
 }
+
 @media (max-width: 1165px) {
     .glide__arrow
     {
@@ -142,11 +180,37 @@
     .project {
         max-width: 48%;
     }
+    .container
+    {
+        width:87%;
+        max-width:87%;
+    }
+    .containerOverride
+    {
+        padding: 0;
+        margin: 0;
+        width: 100% !important;
+        /* display: block; */
+        max-width: 100% !important;
+    }
 }
-@media (max-width: 38em) {
+@media (max-width: 1024px) {
+    .containerOverride
+    {
+        padding: 0;
+        margin: 0;
+        width: 100% !important;
+        /* display: block; */
+        max-width: 100% !important;
+    }
     .glide__arrow
     {
         display: none;
+    }
+    .container
+    {
+        width:87%;
+        max-width:87%;
     }
     .project {
         max-width: 100%;
