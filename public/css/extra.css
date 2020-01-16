@@ -220,3 +220,15 @@
         width:100%;
     }
 }
+@media (max-width: 768px) {
+    .container
+    {
+        width: 100%;
+        max-width: 100%;
+    }
+    .aboutUl span
+    {
+        font-size: 16px;
+    }
+}
+
