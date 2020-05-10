@@ -7,4 +7,4 @@ Recently, i've been working on an online leaderboard system called Place Race! I
 
 <!--more-->
 
-<iframe src="https://admin.placerace.io/embed/leaderboard/test"></iframe>
+<iframe width="100%" height="600" src="https://admin.placerace.io/embed/leaderboard/test"></iframe>
