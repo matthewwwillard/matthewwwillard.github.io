@@ -7,6 +7,7 @@ skills:
     - Mysql
     - TypeScript
     - Unity3D
+    - Angular 2
 showcase_image: /public/images/projects/fanlabel/showcase.png
 images:
     - /public/images/projects/fanlabel/0.PNG
@@ -24,3 +25,4 @@ description: Think you can pick the next hit song? Build a fantasy record label 
 * Create new API
 * Included Public API for external users
 * Created new Database Schema
+* Create an administration portal for managing app and users

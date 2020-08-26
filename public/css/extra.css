@@ -59,6 +59,7 @@
 .project
 {
     /*border: solid #c0c0c0 2px;*/
+    min-height: 570px;
     border-radius: 10px;
     max-width:30%;
     margin:5px;

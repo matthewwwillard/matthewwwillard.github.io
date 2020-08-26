@@ -9,6 +9,7 @@ layout: default
         <small class="pill">{{pill}}</small>
         {% endfor %}
     </div>
+    {% if page.images.size > 0 %}
     <div class="glide">
         <div class="glide__track" data-glide-el="track">
             <ul class="glide__slides">
@@ -29,9 +30,12 @@ layout: default
             {% endfor %}
         </div>
     </div>
+    {% endif %}
+
     {{ content }}
 </div>
 
+{% if page.images.size > 0 %}
 <script src="/public/js/glide.js"></script>
 <script>
     new Glide('.glide', {
@@ -50,3 +54,4 @@ layout: default
         }
     }).mount()
 </script>
+{% endif %}
