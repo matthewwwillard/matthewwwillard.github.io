@@ -3,9 +3,9 @@ layout: default
 title: Projects
 ---
 
-<div class="projects">
+<div class="row">
     {% for p in site.projects %}
-    <a {% if p.site != null %} href="{{p.site}}" target="_blank" {% else %} href="{{p.url}}" {% endif %} style="text-decoration: none">
+    <a {% if p.site != null %} href="{{p.site}}" target="_blank" {% else %} href="{{p.url}}" {% endif %} style="text-decoration: none" class="col-sm-12 col-md-4">
         <div class="project">
             <img src="{{p.showcase_image}}"/>
             <hr/>

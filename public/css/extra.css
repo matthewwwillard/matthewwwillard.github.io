@@ -54,16 +54,15 @@
 /* Projects */
 
 .projects{
-    width:100%;
+
+
 }
 .project
 {
     /*border: solid #c0c0c0 2px;*/
-    min-height: 570px;
+    height: 570px;
     border-radius: 10px;
-    max-width:30%;
     margin:5px;
-    float:left;
 }
 .project p
 {
@@ -72,7 +71,10 @@
     font-size: 18px;
     color:black;
 }
-
+.project img
+{
+    width:512px;
+}
 /*END PROJECTS*/
 
 .pills-project
@@ -224,6 +226,10 @@
     }
 }
 @media (max-width: 768px) {
+    .project img
+    {
+        margin:auto;
+    }
     .container
     {
         width: 100%;

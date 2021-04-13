@@ -13,7 +13,7 @@ images:
     - /public/images/projects/shoployal/0.png
     - /public/images/projects/shoployal/1.png
     - /public/images/projects/shoployal/2.png
-description: When it comes to shopping with your favorite local merchants, ShopLoyal gives you the Insider advantage. As a loyal patron, you deserve an elevated shopping experience and should be first in line for rewards from the merchants you shop with the most.
+description: When it comes to shopping with your favorite local merchants, ShopLoyal gives you the Insider advantage.
 ---
 
 ### What I Did
